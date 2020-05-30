@@ -15,7 +15,7 @@ public class b_10250 {
         for(int i=0;i<count;i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
             int h = Integer.parseInt(st.nextToken());
-            int w = Integer.parseInt(st.nextToken());
+            Integer.parseInt(st.nextToken());
             int n = Integer.parseInt(st.nextToken());
             if(n%h==0) {
                 x = n/h;
